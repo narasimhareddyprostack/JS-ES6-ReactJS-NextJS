@@ -1,0 +1,5 @@
+Invoke rest api and display data in the form of html table.
+
+Rest API URL:https://jsonplaceholder.typicode.com/users
+Method Type:GET
+Required Fiels: None
