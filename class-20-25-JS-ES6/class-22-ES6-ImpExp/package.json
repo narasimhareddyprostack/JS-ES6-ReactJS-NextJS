@@ -1,0 +1,13 @@
+{
+  "name": "class-22-es6-impexp",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "central.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
