@@ -1,8 +1,18 @@
-let App = ()=>{
+import Header from "./components/Header";
+import Footer from './components/Footer'
+function App(){
 
     return <div>
-            <h4>App Componnet</h4>
-            <h4>Welcome to React</h4>
+            <h1>App Component</h1>
+            <hr />
+            <Header/>
+            <Footer/>
+            <Footer/>
+            <Footer/>
+            <Footer/>
+            <Footer/>
+            <Footer/>
+            <Footer/>
            </div>
 }
 
