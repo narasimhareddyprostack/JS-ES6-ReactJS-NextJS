@@ -1,19 +1,11 @@
-import Header from "./components/Header";
-import Footer from './components/Footer'
-function App(){
-
+import CompA from "./props/CompA";
+import Movie from './Movie/Movie';
+import User from  './props2/User'
+let App=()=>{
     return <div>
-            <h1>App Component</h1>
-            <hr />
-            <Header/>
-            <Footer/>
-            <Footer/>
-            <Footer/>
-            <Footer/>
-            <Footer/>
-            <Footer/>
-            <Footer/>
-           </div>
+                <h2>App Component</h2>
+                <hr/>
+                <CompA/>
+            </div>
 }
-
 export default App;
