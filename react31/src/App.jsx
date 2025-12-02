@@ -1,12 +1,11 @@
-import React, {Fragment} from "react";
-import CompA from './CompA'
-import CA from "./PD/CA";
-let App=()=>{
+import Message from "./stateEx/Message";
+import Counter from "./stateEx/Counter";
+let App = ()=>{
 
-    return <Fragment>
-                <h3>App Component</h3>
-                <hr/>            
-            <CA/>
-            </Fragment>
+    return <div>
+                <h2>App Component</h2>
+                <h4/>
+                <Counter/>
+           </div>
 }
 export default App;
