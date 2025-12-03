@@ -1,11 +1,15 @@
-import Message from "./stateEx/Message";
-import Counter from "./stateEx/Counter";
-let App = ()=>{
+import React from 'react'
+import Message from './components/message/Message'
+//import '../node_modules/bootstrap/dist/css/bootstrap.css'
+import './static/css/bs.css'
+import Navbar from './components/Navbar/Navbar'
+const App = () => {
+  
 
-    return <div>
-                <h2>App Component</h2>
-                <h4/>
-                <Counter/>
-           </div>
+    return <React.Fragment>
+            <Navbar/>
+           
+            </React.Fragment>
 }
-export default App;
+
+export default App
