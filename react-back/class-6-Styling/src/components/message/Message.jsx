@@ -11,6 +11,8 @@ const Message = () => {
         <h3 style={mystyles}>Good Afternoon - internal</h3>
         <h3 className='box'>Good Evening - Extenal & comp</h3>
         <button className='btn btn-danger'>Test</button>
+        <hr/>
+        <h3 id="bg-gold">Mic testing</h3>
         </div>
 }
 

@@ -1,15 +1,12 @@
 import React from 'react'
-import Message from './components/message/Message'
-//import '../node_modules/bootstrap/dist/css/bootstrap.css'
-import './static/css/bs.css'
-import Navbar from './components/Navbar/Navbar'
+import Message from './EventBinding/Message'
+import Users from './HTTP/Users'
 const App = () => {
-  
-
-    return <React.Fragment>
-            <Navbar/>
-           
-            </React.Fragment>
+ return <div>
+            <h4>App Component</h4>
+            <hr/>
+            <Users/>
+        </div>
 }
 
 export default App
