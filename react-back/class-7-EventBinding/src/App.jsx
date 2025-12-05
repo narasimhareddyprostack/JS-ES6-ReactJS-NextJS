@@ -1,9 +1,9 @@
 import React from 'react'
-import Users from './Users/Users'
-import Message from './Message/Message'
+import Message from './EventBinding/Message'
+import Users from './HTTP/Users'
 const App = () => {
  return <div>
-            <h3>App Component</h3>
+            <h4>App Component</h4>
             <hr/>
             <Users/>
         </div>
