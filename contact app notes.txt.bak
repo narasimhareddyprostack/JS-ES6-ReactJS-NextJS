@@ -33,4 +33,21 @@ src\components\Navbar\Navbar.jsx
 Search for the keywords to learn more about each error.
 
 
+Install dependency?
+
+npm i react-router-dom@6
+
+routing 7 - new Hooks?
+
+React Components?
+React Props
+State - using useState() hooks
+Styling with Bootstrap
+Event Handling
+Event Binding
+List Rendering
+Conditional Rendering
+HTTP/Axios - Invoking Rest API
+React Routing 5/6/7
+
 
