@@ -4,12 +4,9 @@ import ContactList from './ContactList';
 import ContactDetails from './ContactDetails';
 const ContactApp = () => {
   let [contacts,setContacts]=useState([]);
-  
-  let [fName,setFName]  = useState("")
-  let [lName,setLName]  = useState("")
-  let userSelectedContact=(fn,ln)=>{
-    setFName(fn);
-    setLName(ln)
+  let [contact,setContact]  = useState({});
+  let userSelectedContact=(contact)=>{
+    setContact(contact)
   }
   useEffect(()=>{
     Axios.get('https://gist.githubusercontent.com/narasimhareddyprostack/7e344f346f47bc53a889d78b5258d0c9/raw/56d531cb936d9c79e2417e5d0e5d8c9c876800f2/contactlist')
@@ -28,7 +25,9 @@ const ContactApp = () => {
             </div>
             <div className="col-4">
             {
-              <ContactDetails fName={fName} lName={lName}/>
+              Object.keys(contact).length>0?
+              <><ContactDetails contact={contact}/></>:
+              <><h3>No Data</h3></>
             }
               
             </div>

@@ -3,8 +3,9 @@ import React from 'react'
 const ContactList = (props) => {
   let {contacts,selectedContact} = props;
 
-  let getContactHandler=(fn,ln)=>{
-    selectedContact(fn,ln)
+  let getContactHandler=(contact)=>{
+    
+    selectedContact(contact)
   }
   return <div className='container'>
           <h3>Contacts</h3>
@@ -22,7 +23,7 @@ const ContactList = (props) => {
                 <tbody>
                 {
                   contacts.map((contact)=>{
-                    return <tr key={contact.login.uuid} onMouseOver={getContactHandler.bind(null,contact.name.first,contact.name.last)}>
+                    return <tr key={contact.login.uuid} onMouseOver={getContactHandler.bind(null,contact)}>
                             <td>{contact.login.uuid.substring(32)}</td>
                             <td>{contact.name.first}</td>
                             <td>{contact.email}</td>
