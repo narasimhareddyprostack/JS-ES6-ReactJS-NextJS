@@ -1,10 +1,10 @@
 import React from 'react'
-import Login from './FH/Login'
+
 let App = () => {
   return <div>
             <h3>App Component</h3>
             <hr/>
-            <Login/>
+            <Message/>
           </div>
 }
 
