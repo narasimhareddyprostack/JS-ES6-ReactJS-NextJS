@@ -1,10 +1,10 @@
 import React from 'react'
-import Login from './FH/Login'
+import CreateProduct from './FH/CreateProduct'
 let App = () => {
   return <div>
             <h3>App Component</h3>
             <hr/>
-            <Login/>
+            <CreateProduct/>
           </div>
 }
 
