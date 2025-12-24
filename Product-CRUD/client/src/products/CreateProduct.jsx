@@ -6,4 +6,4 @@ const CreateProduct = () => {
             </div>
 }
 
-export default CreateProduct
+export default CreateProduct;

@@ -4,6 +4,8 @@ client/React
 npm i react-router-dom@6 axios bootstrap@4
 
 
+
+
 Product-CRUD Application (MERN Stack) Full Stack Application
 ---------------------
 
@@ -28,8 +30,8 @@ fields -> name:string ,
 REST API (CRUD Operations with Products)
 ----------------------------------------
 
-1) GET all Products
-
+1) GET all Products 
+   USAGE:Get all Products
    URL : http://127.0.0.1:5000/api/products
    Method : GET
    Fields : no-fields
