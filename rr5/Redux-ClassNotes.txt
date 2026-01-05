@@ -1,0 +1,11 @@
+step 1: Install redux dependencies
+ 
+npm i redux react-redux @redux-devtools/extension
+npm i redux 
+      react-redux 
+      @redux-devtools/extension
+
+step 2: Install google chrome extension
+        to debug redux store
+
+step 3:
