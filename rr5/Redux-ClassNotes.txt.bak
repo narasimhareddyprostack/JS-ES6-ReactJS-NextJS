@@ -1,0 +1,30 @@
+step 1: Install redux dependencies
+ 
+npm i redux react-redux @redux-devtools/extension
+npm i redux 
+      react-redux 
+      @redux-devtools/extension
+
+step 2: Install google chrome extension
+        to debug redux store
+
+step 3:
+
+
+How to dispatch an redux action?
+what is action?
+what is reducer?
+how to read redux store data to react app?
+How to read store state from component?
+
+
+How to dispatch an redux action?
+using - useDispatch() hook?
+
+
+what is action?
+action is function, it return actionable object
+
+let gmAction=()=>{
+    return {type:GM}
+}
