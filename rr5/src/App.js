@@ -1,15 +1,15 @@
 import React from 'react'
-import Message from './messages/Messge'
-import {store} from './redux/store'
+import Product from './product/Product';
 import {Provider} from 'react-redux'
+import { store } from './redux/store';
 const App = () => {
   return <div>
           <Provider store={store}>
-            <h3>App Component</h3>
-            <hr/>
-            <Message/>
-          </Provider>
-        </div>
+              <h3>App Component</h3>
+              <hr/>
+              <Product />
+            </Provider>
+         </div>
 }
 
 export default App
